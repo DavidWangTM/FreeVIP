@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/mac/Documents/Android开发/FreeVip/app/libs/AppOffer_2.4.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c56582bf4d464df35bbe1d1e223c6fa70ca1ef0">
+        <dex dex="/Users/mac/Documents/Android开发/FreeVip/app/build/intermediates/pre-dexed/release/AppOffer_2.4.2-8adb75af042ff863a4f3c75f557e43b024d7dfa9.jar" />
+    </item>
+    <item
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.7/cd78109020f9ec803ef4e652c17ee4615b03e20a/android-async-http-1.4.7.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cd78109020f9ec803ef4e652c17ee4615b03e20a">
+        <dex dex="/Users/mac/Documents/Android开发/FreeVip/app/build/intermediates/pre-dexed/release/android-async-http-1.4.7-d8dc038b59dbd71da09ad4619e5ef3d3ea3a530f.jar" />
+    </item>
+    <item
+        jar="/Users/mac/Documents/Android开发/FreeVip/app/libs/fastjson-1.1.38.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1edccd37c7a288cce12bd1be1831ab6f8ed8fa12">
+        <dex dex="/Users/mac/Documents/Android开发/FreeVip/app/build/intermediates/pre-dexed/release/fastjson-1.1.38-78672d60791914f6c3adac8224b802c9d069508d.jar" />
+    </item>
+    <item
+        jar="/Users/mac/Documents/Android开发/FreeVip/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/mac/Documents/Android开发/FreeVip/app/build/intermediates/pre-dexed/release/nineoldandroids-2.4.0-019762988dd857e77d878b2e85c0ff0a5fa11f7e.jar" />
+    </item>
+    <item
+        jar="/Users/mac/Documents/Android开发/FreeVip/app/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/mac/Documents/Android开发/FreeVip/app/build/intermediates/pre-dexed/release/libammsdk-fabb64b490b756a4f810145a5cb33942b222beb7.jar" />
+    </item>
+    <item
+        jar="/Users/mac/Documents/Android开发/FreeVip/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/mac/Documents/Android开发/FreeVip/app/build/intermediates/pre-dexed/release/universal-image-loader-1.9.4-a53c6ff72bd36e18750c27147c5a7836b588c222.jar" />
+    </item>
+
+</items>

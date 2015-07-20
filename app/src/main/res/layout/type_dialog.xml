@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#50000000"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/dialog_bj"
+            android:gravity="center"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/dialog_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您积分不足，是否需要获取积分？"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <Button
+                    android:id="@+id/dialog_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="取消"
+                    android:background="@android:color/holo_blue_bright"
+                    android:textColor="@android:color/white"
+                    />
+
+                <Button
+                    android:id="@+id/dialog_sure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="确定"
+                    android:background="@android:color/holo_red_light"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/white"
+                    />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

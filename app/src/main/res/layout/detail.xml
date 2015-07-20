@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="爱奇艺 VIP"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/money_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的积分："
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/text_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="账号:"
+            />
+
+        <TextView
+            android:id="@+id/zh"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            android:text=""
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/save_zh"
+            android:layout_toRightOf="@+id/text_0"
+            />
+
+        <Button
+            android:id="@+id/save_zh"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="复制账号"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:layout_alignParentRight="true"
+            />
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="密码:"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/mm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            android:text=""
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/save_mm"
+            android:layout_toRightOf="@+id/text_1"
+            />
+
+        <Button
+            android:id="@+id/save_mm"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="复制密码"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="免费刷新账号"
+        android:layout_marginTop="10dp"
+        android:onClick="SXZHOnclick"
+        android:background="@android:color/holo_blue_bright"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="获取独享账号"
+        android:layout_marginTop="10dp"
+        android:onClick="VipOnclick"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="请大家不要随意修改密码，会影响您和他们的使用 \n 独享账号刷新一次需20点积分"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

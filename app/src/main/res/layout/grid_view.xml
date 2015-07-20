@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tm.davidwang.views.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/showimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</tm.davidwang.views.SquareLayout>
